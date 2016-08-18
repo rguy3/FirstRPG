@@ -12,6 +12,10 @@
 		8D3C185E1D6418C800F7A480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3C185C1D6418C800F7A480 /* Main.storyboard */; };
 		8D3C18601D6418C800F7A480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3C185F1D6418C800F7A480 /* Assets.xcassets */; };
 		8D3C18631D6418C800F7A480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3C18611D6418C800F7A480 /* LaunchScreen.storyboard */; };
+		8D3C186B1D6418FD00F7A480 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3C186A1D6418FD00F7A480 /* Character.swift */; };
+		8DE2915E1D652DA700B111B1 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2915D1D652DA700B111B1 /* Minecraft.ttf */; };
+		8DE291601D652F8B00B111B1 /* mace.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2915F1D652F8B00B111B1 /* mace.wav */; };
+		8DE291621D652F9300B111B1 /* sword.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8DE291611D652F9300B111B1 /* sword.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		8D3C185F1D6418C800F7A480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D3C18621D6418C800F7A480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D3C18641D6418C800F7A480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3C186A1D6418FD00F7A480 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		8DE2915D1D652DA700B111B1 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Minecraft.ttf; path = ../../images/Minecraft.ttf; sourceTree = "<group>"; };
+		8DE2915F1D652F8B00B111B1 /* mace.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = mace.wav; path = ../../images/mace.wav; sourceTree = "<group>"; };
+		8DE291611D652F9300B111B1 /* sword.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sword.wav; path = ../../images/sword.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		8D3C18571D6418C800F7A480 /* RPG2-OOP */ = {
 			isa = PBXGroup;
 			children = (
+				8DE291611D652F9300B111B1 /* sword.wav */,
+				8DE2915F1D652F8B00B111B1 /* mace.wav */,
+				8DE2915D1D652DA700B111B1 /* Minecraft.ttf */,
 				8D3C18581D6418C800F7A480 /* AppDelegate.swift */,
 				8D3C185A1D6418C800F7A480 /* ViewController.swift */,
 				8D3C185C1D6418C800F7A480 /* Main.storyboard */,
 				8D3C185F1D6418C800F7A480 /* Assets.xcassets */,
 				8D3C18611D6418C800F7A480 /* LaunchScreen.storyboard */,
 				8D3C18641D6418C800F7A480 /* Info.plist */,
+				8D3C186A1D6418FD00F7A480 /* Character.swift */,
 			);
 			path = "RPG2-OOP";
 			sourceTree = "<group>";
@@ -123,8 +135,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE291601D652F8B00B111B1 /* mace.wav in Resources */,
 				8D3C18631D6418C800F7A480 /* LaunchScreen.storyboard in Resources */,
 				8D3C18601D6418C800F7A480 /* Assets.xcassets in Resources */,
+				8DE2915E1D652DA700B111B1 /* Minecraft.ttf in Resources */,
+				8DE291621D652F9300B111B1 /* sword.wav in Resources */,
 				8D3C185E1D6418C800F7A480 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3C186B1D6418FD00F7A480 /* Character.swift in Sources */,
 				8D3C185B1D6418C800F7A480 /* ViewController.swift in Sources */,
 				8D3C18591D6418C800F7A480 /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +303,7 @@
 				8D3C18691D6418C800F7A480 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
